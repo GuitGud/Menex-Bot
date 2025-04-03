@@ -1,0 +1,17 @@
+# Ignore environment files
+.env
+
+# Ignore compiled Go binaries
+*.exe
+*.out
+*.o
+
+# Ignore dependency directories
+/bin/
+/pkg/
+/vendor/
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "id": "1712345678901234567",
+      "name": "Aniversário de Menex, parabéns Menex original, você será substituido",
+      "description": "Discussão sobre novo projeto",
+      "dateTime": "2025-12-15T10:00:00Z",
+      "notified": false
+    },
+    {
+      "id": "1712345678901234568",
+      "name": "Aniversário de Guigo, parabéns menino trabalhador",
+      "description": "Prazo final para entrega",
+      "dateTime": "2025-11-18T10:00:00Z",
+      "notified": false
+    }
+  ]
+}
