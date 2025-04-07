@@ -7,7 +7,7 @@ This bot will basically check if event dates that I have registered have been re
 !events - Lista todos os eventos pendentes
 !addevent [nome] [DD/MM/AAAA] [HH:MM] [descrição] - Adiciona um novo evento
 !menex help or !menexhelp - shows all commands
-!motora - motorola
+!motorola - tells you a random motorola phone
 !remove event
 
 
@@ -15,7 +15,7 @@ This bot will basically check if event dates that I have registered have been re
         |
         V
 ## cmd
-The cmd repo will register the bot commands if any are ever created.
+The cmd repo will register the bot commands (the fent core)
 
 ## main
-Must I explain this? besides the rest is all basic golang structure
+Basic golang main structure, used for calling upon the function and commands.
