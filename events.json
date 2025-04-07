@@ -1,9 +1,16 @@
 [
   {
-    "id": "70cf08a9-491e-486d-a3f7-bae47b02c547",
-    "name": "VERSALHESFORREAL",
-    "dateTime": "2025-04-07T10:00:00-03:00",
-    "description": "bora nesse carai",
-    "notified": true
+    "id": "ede58f07-4633-48fb-906c-3071f4366e90",
+    "name": "Aniversário de Test Nigger",
+    "dateTime": "2026-04-07T10:00:00-03:00",
+    "description": "HELL YEAH",
+    "notified": false
+  },
+  {
+    "id": "c224f463-2918-4b98-b36b-4184d687859f",
+    "name": "Aniversário de MeneX",
+    "dateTime": "2025-12-15T10:00:00-03:00",
+    "description": "THE KING",
+    "notified": false
   }
 ]

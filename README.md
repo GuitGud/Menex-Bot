@@ -8,7 +8,9 @@ This bot will basically check if event dates that I have registered have been re
 !addevent [nome] [DD/MM/AAAA] [HH:MM] [descrição] - Adiciona um novo evento
 !menex help or !menexhelp - shows all commands
 !motorola - tells you a random motorola phone
-!remove event
+!removeevent [nome]
+!birthday [nome] [DD/MM] [descrição] - cria uma data aniversário
+!meneximage - Envia uma imagem aleatória do Menex
 
 
 # Repository structure
