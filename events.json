@@ -1,18 +1,9 @@
-{
-  "events": [
-    {
-      "id": "1712345678901234567",
-      "name": "Aniversário de Menex, parabéns Menex original, você será substituido",
-      "description": "Discussão sobre novo projeto",
-      "dateTime": "2025-12-15T10:00:00Z",
-      "notified": false
-    },
-    {
-      "id": "1712345678901234568",
-      "name": "Aniversário de Guigo, parabéns menino trabalhador",
-      "description": "Prazo final para entrega",
-      "dateTime": "2025-11-18T10:00:00Z",
-      "notified": false
-    }
-  ]
-}
+[
+  {
+    "id": "70cf08a9-491e-486d-a3f7-bae47b02c547",
+    "name": "VERSALHESFORREAL",
+    "dateTime": "2025-04-07T10:00:00-03:00",
+    "description": "bora nesse carai",
+    "notified": true
+  }
+]
