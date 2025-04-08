@@ -265,7 +265,8 @@ func HandleMessage(s *discordgo.Session, m *discordgo.MessageCreate) {
 !menexhelp ou !menex help - Mostra todos os comandos
 !removeevent "nome" - Remove um evento pelo nome
 !birthday nome DD/MM/AAAA descrição - Registra seu aniversário para notificação anual
-!meneximage - Envia uma imagem aleatória do Menex`
+!meneximage - Envia uma imagem aleatória do Menex
+!menexreact - Reage com um emoji aleatório do Samuru Familia`
 		s.ChannelMessageSend(m.ChannelID, help)
 	}
 }
@@ -299,5 +300,32 @@ func sendRandomMenexImage(s *discordgo.Session, channelID string) {
 	_, err = s.ChannelFileSend(channelID, randomFile, file)
 	if err != nil {
 		log.Println("Error sending image:", err)
+	}
+}
+
+func Ricardo(s *discordgo.Session, m *discordgo.MessageCreate) {
+	if strings.HasPrefix(m.Content, "!menexreact") {
+		customEmojis := []string{
+			"Patrick:1359147044090155170",
+			"Demeter:1359146930084511946",
+			"Unnamed:1359146791215435917", // Replace with real name if needed
+		}
+
+		// Modern random generator
+		r := rand.New(rand.NewSource(time.Now().UnixNano()))
+		selected := customEmojis[r.Intn(len(customEmojis))]
+
+		// Extract name and ID
+		parts := strings.Split(selected, ":")
+		if len(parts) == 2 {
+			name := parts[0]
+			id := parts[1]
+			emoji := name + ":" + id
+
+			err := s.MessageReactionAdd(m.ChannelID, m.ID, emoji)
+			if err != nil {
+				log.Printf("Failed to react with custom emoji: %v", err)
+			}
+		}
 	}
 }
