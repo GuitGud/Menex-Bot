@@ -264,7 +264,7 @@ func HandleMessage(s *discordgo.Session, m *discordgo.MessageCreate) {
 !motorola - Mostra um celular aleatório da Motorola
 !menexhelp ou !menex help - Mostra todos os comandos
 !removeevent "nome" - Remove um evento pelo nome
-!birthday "nome" DD/MM/AAAA "descrição" - Registra seu aniversário para notificação anual
+!birthday nome DD/MM/AAAA descrição - Registra seu aniversário para notificação anual
 !meneximage - Envia uma imagem aleatória do Menex`
 		s.ChannelMessageSend(m.ChannelID, help)
 	}
